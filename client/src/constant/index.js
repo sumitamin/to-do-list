@@ -1,0 +1,10 @@
+export const SIGN_UP = 'app/SIGN_UP';
+export const LOGIN = 'app/LOGIN';
+export const AUTH_RESULT = 'app/AUTH_RESULT';
+export const TASK_ACTION = 'app/TASK_ACTION';
+export const EDIT_TASK = 'app/EDIT_TASK';
+export const ADD_TASK = 'app/ADD_TASK';
+export const DELETE_TASK = 'app/DELETE_TASK';
+export const FETCH_TASK = 'app/FETCH_TASK';
+export const CLEAR_ACTION = 'app/CLEAR_ACTION';
+export const ARCHIVE_TASK = 'app/ARCHIVE_TASK';

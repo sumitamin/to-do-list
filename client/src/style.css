@@ -1,0 +1,88 @@
+.to-do-container{
+    width: 600px;
+    background-color: rgb(240, 239, 239);   
+    height: 100vh;
+}
+
+.input-to-do{
+    width: 75%;
+    border: none;
+}
+
+.input-button{
+    width: 100%;
+    height: 35px;
+    background-color: #218838;
+    border-color: #1e7e34;
+    border-width: 1px;
+    color:white;
+    cursor: pointer;
+}
+
+.to-do-list-container{
+    width: 100%;
+    margin-top: 50px;
+}
+.to-do-list{
+    display: flex;
+    background-color: white;
+    padding:5px 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin:10px 0;
+    border-radius: 6px;
+}
+.to-do-list-text{
+    width: 90%;
+    text-align: left;
+}
+.to-do-list-text-complete{
+    width: 90%;
+    text-align: left;
+    text-decoration: line-through;
+}
+.icon-style{
+    width: 4%;
+    height: 100%;
+    cursor: pointer;
+}
+.error-wrapper{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-top: 10px;
+}
+.use-form{
+    border: 1px solid gray;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.icon-desc{
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+    height: 25px;
+}
+
+.icon-style-each{
+    float: left;
+    margin: 5px 0;
+    width: 100%;
+}
+.ml-10{
+margin-right: 10px;
+}
+.bucket-selector{
+    width: 24%;
+}
+
+.create-new-bucket{
+    width: 97%;
+}
