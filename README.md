@@ -36,8 +36,7 @@ redux-logger - consoles each action call for redux, helps in debugging
 redux-saga - middleware for redux, to perform all necessary task to save/update redux  
 
 # .env file
-credential and keys are saved in .env file.  
-connection string to mongodb is represented by dbUrl in, change it to yours if necessary  
+credential and keys are saved in .env file.    
 
 # Steps to set up project
 install latest node LTS  
@@ -64,6 +63,9 @@ cp env.example .env
 
 # Run project
 'npm run dev' or 'yarn run dev'  
+
+# mysql
+mysql connection is preset inside config file
 
 # Project flow
 login or sign up to log into application  
